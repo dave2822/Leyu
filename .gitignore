@@ -1,0 +1,29 @@
+# Ignore vendor directory
+/vendor/
+
+# Ignore node modules
+/node_modules/
+
+# Ignore .env file
+/.env
+
+# Ignore storage logs and other sensitive files
+/storage/*.log
+/storage/app/*.key
+/storage/framework/cache/*.php
+/storage/framework/sessions/*.php
+/storage/framework/views/*.php
+/storage/framework/testing/
+
+# Ignore compiled assets
+/public/css/*.css
+/public/js/*.js
+/public/mix-manifest.json
+/public/hot
+
+# Ignore user-specific PHPStorm files
+/.idea
+/.phpstorm.meta.php
+
+# Ignore local development environment files
+/.env.*
